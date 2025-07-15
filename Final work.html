@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiori Flower</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="cssfinalwork/reset.css">
+    <link rel="stylesheet" href="cssfinalwork/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">Fiori<span>Flower</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Контакты</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Отзывы</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Fiori Flower</h1>
+                <p class="hero__subtitle">Живые цветы, букеты</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Каталог</a>
+                    <a href="#contacts" class="btn btn--outline">Найти нас</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="images/imagfinalwork/i-8.jpg" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">Букеты, живые цветы</h2>
+               <p id="text">Этот текст нужно изменить.</p>
+               <button id="change-btn">FioriFlower</button>
+                        <p class="about__text">Букеты цветов являются популярным подарком, который может передать различные чувства и эмоции. Современные тенденции во флористике включают в себя как классические композиции, так и более смелые, современные варианты, сочетающие яркие оттенки и необычные форм.</p>
+                        <p class="about__text">У нас есть готовые букеты в наличии и букеты под заказ. Во всех вариантах мы всегда перед доставкой высылаем фото готового букета для согласования, по запросу так же можем снять видео букета.</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                              <i class="fa-solid fa-thumbs-up"></i> &nbsp;
+                                <span>Букеты подходят для самых разных случаев и поводов, будь то день рождения, свадьба, юбилей или просто желание порадовать близкого человека</span>
+                            </li>
+                            <li class="feature-item">
+                              <i class="fa-solid fa-thumbs-up"></i> &nbsp;
+                                <span>Цветы, особенно живые, способны улучшать настроение, снижать стресс и повышать продуктивность, благодаря своим цветам, ароматам и красоте.</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-thumbs-up"></i> &nbsp;
+                                <span>Букеты могут служить украшением интерьера, добавляя в него яркие краски и создавая уют.</span>
+                            </li>
+                            <li class="feature-item">
+                              <i class="fa-solid fa-thumbs-up"></i> &nbsp;
+                                <span>Букеты могут передавать различные эмоции и чувства, от любви и уважения до благодарности и сочувствия, в зависимости от выбранных цветов и композиции.</span>
+                                
+                            </li>
+                            <ul id="list"></ul>
+                             </ul>
+                           <div> <input type="text" id="item-input" placeholder="Введите текст">
+<button id="add-btn">Добавить</button>
+</div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Каталог</h2>
+                <div class="menu__content active" id="coffee">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Букет из 51 розы 50-60 см в пастельных тонах под ленту</h3>
+                                <span class="menu-item__price">3790 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Состав: роза 50-60 см 51 шт., лента атласная 1 шт.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Букет цветов Восхищение</h3>
+                                <span class="menu-item__price">4640 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Состав: пионы 3 шт., матрикария 3 шт., маттиола 4 шт., пленка 2 шт., лента 1 шт.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Букет из 35 роз с красной розой в центре под атласную ленту 35-40см</h3>
+                                <span class="menu-item__price">3490 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Состав: роза 35-40 см 35 шт., лента 1 шт.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Букет цветов Красота души S</h3>
+                                <span class="menu-item__price">2390 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Состав: роза куст. Кения 40 см 7 шт., эвкалипт 0,2 шт., пленка 1,5 шт., лента 1 шт.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Букет из 101 розы нежный микс 35-40 см под ленту</h3>
+                                <span class="menu-item__price">5990 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Состав: роза 35-40 см 101 шт., лента 1 шт.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Букет цветов Нежная натура</h3>
+                                <span class="menu-item__price">3950 ₽</span>
+                            </div>
+                            <p class="menu-item__description">Состав: роза Эквадор 40-50 см 5 шт., маттиола 3 шт., пленка 1,5 шт., лента 1 шт.</p>
+
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Спасибо за великолепно быструю организацию и оформление заказа из другого города. Огромное спасибо за коллективную работу. Цветы великолепны. Оператор на связи до самого вручения, на все вопросы и ищменения реагирует мгновенно. Спасибо.</p>
+                        <div class="review__author">
+                            <img src="images/imagfinalwork/pngwing.com_(1).png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Елена</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Спасибо за приятно красивый букет махровых роз!!! Менеджер всегда была на связи, выслали фото букета для согласия, согласовали доставку! Отдельное спасибо менеджеру и курьеру!</p>
+                        <div class="review__author">
+                            <img src="images/imagfinalwork/pngwing.com_(2).png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Лада</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">В первый раз заказала у вас цветы через сайт самовывозом, три вида роз, цветы все свежие и красивые, понравилось что можно заказать к определенному времени. Спасибо</p>
+                        <div class="review__author">
+                            <img src="images/imagfinalwork/pngwing.com.png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Анна</span>
+                        </div>
+                        
+                    </div>
+                    <textarea id="myTextarea" placeholder="Введите текст..."></textarea>
+                  <p>Символов: <span id="counter">0</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>г. Кириши, Волховская Набережная, 52</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+79117778899</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>fiori_kirishi@mail.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>пн-пт 9-20 (выдача заказов с 8.00) <br> сб-вс 9-20</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                      
+                    </div>
+                    
+                    <div class="contacts__map">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4056.5572225030883!2d32.00170623196188!3d59.44510524688176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46bc522029571725%3A0x993ea6b5782f9afd!2z0JrQuNGA0LjRiNC4LCDQm9C10L3QuNC90LPRgNCw0LTRgdC60LDRjyDQvtCx0Lsu!5e0!3m2!1sru!2sru!4v1752476526140!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Fiori<span>Flower</span></a>
+                    <p class="footer__text">Живые цветы, букеты</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Меню</a></li>
+                        <li><a href="#about" class="footer__link">О нас </a></li>
+                        <li><a href="#reviews" class="footer__link">Контакты</a></li>
+                        <li><a href="#contacts" class="footer__link">Отзывы</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+           
+            </div>
+         <button id="toggleTheme">Переключить тему</button>    
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright. 2025 Все права защищены FioriFlower</p>
+                   
+            </div>    
+        </div>
+    </footer>
+<script src="js/scriptfinalwork.js"></script>
+
+</body>
+
+</html>
